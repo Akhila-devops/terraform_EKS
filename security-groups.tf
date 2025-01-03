@@ -17,7 +17,7 @@ resource "aws_security_group_rule" "all_worker_mgmt_ingress" {
     "192.168.0.0/16",
   ]
 }
-
+#
 resource "aws_security_group_rule" "all_worker_mgmt_egress" {
   description       = "allow outbound traffic to anywhere"
   from_port         = 0
